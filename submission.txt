@@ -1,0 +1,4 @@
+งานหลังการทดลอง
+
+1.ทำการตกแต่งหน้าจอ Weather เพิ่มเติม
+ -Weather.js ทำการเพิ่ม TextZipcode สำหรับจัด layout เพิ่มสีพื้นหลังจากคำสั่ง backgroundColor
