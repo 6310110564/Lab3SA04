@@ -2,3 +2,6 @@
 
 1.ทำการตกแต่งหน้าจอ Weather เพิ่มเติม
  -Weather.js ทำการเพิ่ม TextZipcode สำหรับจัด layout เพิ่มสีพื้นหลังจากคำสั่ง backgroundColor
+
+2.ทำการตกแต่งหน้าจอ ZipCodeScreen เพิ่มเติม
+ -ZipCodeScreen.js ทำการเพิ่มสีพื้นหลังตรงส่วนของ Zipcode

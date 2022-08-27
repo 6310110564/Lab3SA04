@@ -1,5 +1,5 @@
 import React from "react";
-import { FlatList, View, Text, TouchableHighlight } from "react-native";
+import { FlatList, View, Text, TouchableHighlight, ImageBackground } from "react-native";
 import { StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
@@ -36,13 +36,16 @@ export default function zipCodeScreen() {
 const styles = StyleSheet.create({
     ZipItem: {
         flex: 1,
+        backgroundColor: '#00ACC1',
+        alignSelf: 'stretch',
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        alignItems: 'center',
+        justifyContent: 'space-around',
     },
     ZipPlace: {
-        flex: 1,
+        flex: 1,   
     },
     ZipCode: {
         flex: 1,
-    }
+    },
 })
