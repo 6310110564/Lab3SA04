@@ -9,7 +9,6 @@ export default function Forecast(props) {
             <Text style={styles.Text1}>{props.description}</Text>
             <Text style={styles.Text1}>{props.temp}</Text>
             <Text style={styles.Text}>°C</Text>
-            <Text></Text>
         </View>
     );
 }
@@ -25,10 +24,14 @@ const styles = StyleSheet.create({
     Text: {
         fontWeight: "400",
         fontSize: 30,
-        color: 'white'
+        color: 'white',
+        paddingTop: 5,
+        paddingBottom: 5
     },
     Text1: {
         fontSize: 15,
-        color: 'white'
+        color: 'white',
+        paddingTop: 1,
+        paddingBottom: 1
     }
 });

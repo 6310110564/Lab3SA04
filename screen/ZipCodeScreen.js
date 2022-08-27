@@ -46,7 +46,11 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
+        paddingRight: 50,
+        paddingLeft: 50,
+        paddingTop: 20,
+        paddingBottom: 20
     },
     ZipPlace: {
         flex: 1,   
@@ -56,6 +60,7 @@ const styles = StyleSheet.create({
     },
     Text: {
         fontSize: 19,
-        color: 'white'
+        color: 'white',
+        fontWeight: "300",
     },
 })

@@ -15,3 +15,9 @@
 4.ทำการตกแต่งหน้าจอ ZipCodeScreen เพิ่มเติม
  -เพิ่ม ImageBackground ภาพเดียวกับหน้าจอ Weather
  -ใส่ขนาดความกว้าง 100% ความสูง 100%
+
+5.ทำการตกแต่งหน้าจอ ZipCodeScreen เพิ่มเติม
+ -ใช้ paddingRight และ paddingLeft ในการกำหนดระยะห่างจากขอบหน้าจอฝั่งซ้ายและขวา
+ -ใช้ paddingTop และ paddingBottom ในการกำหนดระยะห่างบนและล่าง
+ -ใช้ fontWeight desofohesoyd
+ ตกแต่งหน้าจอ Weather.js และ Forcast.js เพิ่มเติมโดยการใช้ padding
