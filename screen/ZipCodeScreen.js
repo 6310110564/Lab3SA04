@@ -25,15 +25,21 @@ const ZipItem = ({place, code, navigation}) => (
 export default function zipCodeScreen() {
     const navigation = useNavigation()
     return(
+        <ImageBackground source={require('../bg.png')} style={styles.backdrop}>
         <FlatList
             data = {availableZipItems}
             keyExtractor = {item => item.code}
             renderItem = {({item}) => <ZipItem {...item} navigation={navigation}/>}
-        />
+        /> 
+        </ImageBackground>
     )
 }
 
 const styles = StyleSheet.create({
+    backdrop: {
+        width: '100%',
+        height: '100%',
+    },
     ZipItem: {
         flex: 1,
         backgroundColor: '#00ACC1',
